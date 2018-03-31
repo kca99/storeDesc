@@ -7,7 +7,7 @@ class Svgdisplay extends Component {
     super();
     this.handleClick = this.handleClick.bind(this);
     this.state = {
-      clickedObj: null
+      clickedObj: 'FD'
     }
   }
 
@@ -69,74 +69,90 @@ class Svgdisplay extends Component {
       	</g>
       	<rect id="randomRack" x="280.9" y="264.4" className="st2" width="6.5" height="51"/>
       	<path id="BACKOFFICE" className="st2" d="M478.1,639.5H346.9c-3.6,0-6.6,3-6.6,6.6v26c0,3.6,3,6.6,6.6,6.6h131.2c3.6,0,6.6-3,6.6-6.6
-      		v-26C484.7,642.5,481.7,639.5,478.1,639.5z"/>
+      		v-26C484.7,642.5,481.7,639.5,478.1,639.5z" onClick={this.handleClick}/>
       	<rect id="kevincantmergestuffsoheresarandomline" x="237" y="642.7" className="st2" width="102.5" height="38.5"/>
       </g>
       <g id="Locations">
-      	<path id="FC_1_" className="st2" d="M332.5,482.2h-88c-3.9,0-7-3.2-7-7v-25c0-3.9,3.2-7,7-7h88c3.9,0,7,3.2,7,7v25
-      		C339.5,479,336.3,482.2,332.5,482.2z"/>
-      	<rect id="_x33_DFIL" x="288.8" y="264.4" className="st2" width="6.5" height="51"/>
+      	<path id="FC" className="st2" d="M332.5,482.2h-88c-3.9,0-7-3.2-7-7v-25c0-3.9,3.2-7,7-7h88c3.9,0,7,3.2,7,7v25
+      		C339.5,479,336.3,482.2,332.5,482.2z" onClick={this.handleClick}/>
+      	<rect id="3DFIL" x="288.8" y="264.4" className="st2" width="6.5" height="51"
+        onClick={ this.handleClick} />
       	<rect id="DR3" x="19.6" y="33.7" className="st2" width="56.4" height="38"
         onClick={ this.handleClick} />
       	<rect id="DR2" x="19.6" y="71.7" className="st2" width="56.4" height="38.5"
         onClick={this.handleClick}/>
-      	<rect id="DR1" x="19.6" y="110.2" className="st2" width="56.4" height="103.5"/>
-      	<rect id="FD" x="269.5" y="443.2" className="st2" width="37" height="39"/>
-      	<rect id="CTR" x="149.9" y="482.2" className="st2" width="6.3" height="50.5"/>
-      	<rect id="CR4" x="224" y="514.2" className="st2" width="6" height="51"/>
-      	<rect id="CR3" x="211.5" y="571.7" className="st2" width="18.5" height="38.5"/>
-      	<rect id="CR2" x="38.5" y="565.2" className="st2" width="24.5" height="45"/>
-      	<rect id="CR1" x="95" y="613.7" className="st2" width="135" height="29"/>
-      	<rect id="FL2" x="156.1" y="251.2" className="st2" width="12.6" height="224"/>
-      	<rect id="S2" x="149.8" y="251.2" className="st2" width="6.3" height="224"/>
-      	<rect id="FL1" x="130.3" y="251.2" className="st2" width="11.6" height="224"/>
-      	<rect id="S1" x="141.9" y="251.2" className="st2" width="6.5" height="224"/>
-      	<rect id="FL4" x="156.3" y="33.7" className="st2" width="12.6" height="180"/>
-      	<rect id="S4" x="150" y="33.7" className="st2" width="6.3" height="180"/>
-      	<rect id="FL3" x="130.6" y="33.7" className="st2" width="11.6" height="180"/>
-      	<rect id="S3" x="142.2" y="33.7" className="st2" width="6.5" height="180"/>
-      	<rect id="FL6" x="295.1" y="33.7" className="st2" width="12.6" height="224.3"/>
-      	<rect id="S6" x="288.8" y="33.7" className="st2" width="6.3" height="224.3"/>
-      	<rect id="FL5" x="269.3" y="33.7" className="st2" width="11.6" height="224.3"/>
-      	<rect id="S5" x="280.9" y="33.7" className="st2" width="6.5" height="224.3"/>
-      	<rect id="FL8" x="419.9" y="33.7" className="st2" width="12.6" height="180"/>
-      	<rect id="S8" x="413.6" y="33.7" className="st2" width="6.3" height="180"/>
-      	<rect id="FL7" x="394.2" y="33.7" className="st2" width="11.6" height="180"/>
-      	<rect id="S7" x="405.8" y="33.7" className="st2" width="6.5" height="180"/>
-      	<rect id="FL10" x="420.2" y="232.3" className="st2" width="12.6" height="128.7"/>
-      	<rect id="S10" x="413.8" y="232.3" className="st2" width="6.3" height="128.7"/>
-      	<rect id="FL9" x="394.4" y="232.3" className="st2" width="11.6" height="128.7"/>
-      	<rect id="S9" x="406" y="232.3" className="st2" width="6.5" height="128.7"/>
-      	<rect id="FL12" x="420.4" y="401" className="st2" width="12.6" height="183"/>
-      	<rect id="S12" x="414.1" y="401" className="st2" width="6.3" height="183"/>
-      	<rect id="FL11" x="394.7" y="401" className="st2" width="11.6" height="183"/>
-      	<rect id="S11" x="406.3" y="401" className="st2" width="6.5" height="183"/>
-      	<rect id="BEAM" x="269.3" y="322.2" className="st2" width="37.8" height="37.8"/>
-      	<polygon id="HB" className="st2" points="322.4,48.1 341.6,48.5 341.7,59.5 322.5,59.1 	"/>
-      	<rect id="HA" x="309" y="322.2" className="st2" width="17.3" height="38.8"/>
-      	<polygon id="MR2" className="st2" points="318.3,383.7 293.3,401.5 292,367.1 	"/>
-      	<ellipse id="MR1" className="st2" cx="264.4" cy="384.3" rx="15.1" ry="16.6"/>
-      	<polygon id="TREASUREBOX" className="st2" points="356.7,48 384,47.6 384,59.7 356.7,60 	"/>
-      	<rect id="DR4" x="471.7" y="206" className="st2" width="50" height="192.3"/>
-      	<rect id="DR5" x="471.7" y="398.3" className="st2" width="50" height="51.7"/>
-      	<rect id="DR6" x="471.7" y="450" className="st2" width="50" height="50.7"/>
-      	<rect id="KIT1" x="341.7" y="623.7" className="st2" width="39.3" height="14.3"/>
-      	<rect id="MAG" x="384" y="623.7" className="st2" width="25.5" height="14.3"/>
-      	<rect id="DIR" x="412.8" y="623.7" className="st2" width="66.3" height="14.3"/>
-      	<rect id="KIT2" x="394.7" y="589.3" className="st2" width="40.3" height="14.3"/>
+      	<rect id="DR1" x="19.6" y="110.2" className="st2" width="56.4" height="103.5"
+        onClick={this.handleClick}/>
+      	<rect id="FD" x="269.5" y="443.2" className="st2" width="37" height="39"
+        onClick={this.handleClick}/>
+      	<rect id="CTR" x="149.9" y="482.2" className="st2" width="6.3" height="50.5"
+        onClick={this.handleClick}/>
+      	<rect id="CR4" x="224" y="514.2" className="st2" width="6" height="51"
+        onClick={this.handleClick}/>
+      	<rect id="CR3" x="211.5" y="571.7" className="st2" width="18.5" height="38.5"
+        onClick={this.handleClick}/>
+      	<rect id="CR2" x="38.5" y="565.2" className="st2" width="24.5" height="45"
+        onClick={this.handleClick}/>
+      	<rect id="CR1" x="95" y="613.7" className="st2" width="135" height="29"
+        onClick={this.handleClick}/>
+      	<rect id="FL2" x="156.1" y="251.2" className="st2" width="12.6" height="224"
+        onClick={this.handleClick}/>
+      	<rect id="S2" x="149.8" y="251.2" className="st2" width="6.3" height="224"
+        onClick={this.handleClick}/>
+      	<rect id="FL1" x="130.3" y="251.2" className="st2" width="11.6" height="224"
+        onClick={this.handleClick}/>
+      	<rect id="S1" x="141.9" y="251.2" className="st2" width="6.5" height="224"
+        onClick={this.handleClick}/>
+      	<rect id="FL4" x="156.3" y="33.7" className="st2" width="12.6" height="180"
+        onClick={this.handleClick}/>
+      	<rect id="S4" x="150" y="33.7" className="st2" width="6.3" height="180"
+        onClick={this.handleClick}/>
+      	<rect id="FL3" x="130.6" y="33.7" className="st2" width="11.6" height="180"
+        onClick={this.handleClick}/>
+      	<rect id="S3" x="142.2" y="33.7" className="st2" width="6.5" height="180"
+        onClick={this.handleClick}/>
+      	<rect id="FL6" x="295.1" y="33.7" className="st2" width="12.6" height="224.3" onClick={this.handleClick}/>
+      	<rect id="S6" x="288.8" y="33.7" className="st2" width="6.3" height="224.3" onClick={this.handleClick}/>
+      	<rect id="FL5" x="269.3" y="33.7" className="st2" width="11.6" height="224.3" onClick={this.handleClick}/>
+      	<rect id="S5" x="280.9" y="33.7" className="st2" width="6.5" height="224.3" onClick={this.handleClick}/>
+      	<rect id="FL8" x="419.9" y="33.7" className="st2" width="12.6" height="180" onClick={this.handleClick}/>
+      	<rect id="S8" x="413.6" y="33.7" className="st2" width="6.3" height="180" onClick={this.handleClick}/>
+      	<rect id="FL7" x="394.2" y="33.7" className="st2" width="11.6" height="180" onClick={this.handleClick}/>
+      	<rect id="S7" x="405.8" y="33.7" className="st2" width="6.5" height="180" onClick={this.handleClick}/>
+      	<rect id="FL10" x="420.2" y="232.3" className="st2" width="12.6" height="128.7" onClick={this.handleClick}/>
+      	<rect id="S10" x="413.8" y="232.3" className="st2" width="6.3" height="128.7" onClick={this.handleClick}/>
+      	<rect id="FL9" x="394.4" y="232.3" className="st2" width="11.6" height="128.7" onClick={this.handleClick}/>
+      	<rect id="S9" x="406" y="232.3" className="st2" width="6.5" height="128.7" onClick={this.handleClick}/>
+      	<rect id="FL12" x="420.4" y="401" className="st2" width="12.6" height="183" onClick={this.handleClick}/>
+      	<rect id="S12" x="414.1" y="401" className="st2" width="6.3" height="183" onClick={this.handleClick}/>
+      	<rect id="FL11" x="394.7" y="401" className="st2" width="11.6" height="183" onClick={this.handleClick}/>
+      	<rect id="S11" x="406.3" y="401" className="st2" width="6.5" height="183" onClick={this.handleClick}/>
+      	<rect id="BEAM" x="269.3" y="322.2" className="st2" width="37.8" height="37.8" onClick={this.handleClick}/>
+      	<polygon id="HB" className="st2" points="322.4,48.1 341.6,48.5 341.7,59.5 322.5,59.1 	" onClick={this.handleClick}/>
+      	<rect id="HA" x="309" y="322.2" className="st2" width="17.3" height="38.8" onClick={this.handleClick}/>
+      	<polygon id="MR2" className="st2" points="318.3,383.7 293.3,401.5 292,367.1 	" onClick={this.handleClick}/>
+      	<ellipse id="MR1" className="st2" cx="264.4" cy="384.3" rx="15.1" ry="16.6" onClick={this.handleClick}/>
+      	<polygon id="TREASUREBOX" className="st2" points="356.7,48 384,47.6 384,59.7 356.7,60 	" onClick={this.handleClick}/>
+      	<rect id="DR4" x="471.7" y="206" className="st2" width="50" height="192.3" onClick={this.handleClick}/>
+      	<rect id="DR5" x="471.7" y="398.3" className="st2" width="50" height="51.7" onClick={this.handleClick}/>
+      	<rect id="DR6" x="471.7" y="450" className="st2" width="50" height="50.7" onClick={this.handleClick}/>
+      	<rect id="KIT1" x="341.7" y="623.7" className="st2" width="39.3" height="14.3" onClick={this.handleClick}/>
+      	<rect id="MAG" x="384" y="623.7" className="st2" width="25.5" height="14.3" onClick={this.handleClick}/>
+      	<rect id="DIR" x="412.8" y="623.7" className="st2" width="66.3" height="14.3" onClick={this.handleClick}/>
+      	<rect id="KIT2" x="394.7" y="589.3" className="st2" width="40.3" height="14.3" onClick={this.handleClick}/>
       	<polygon id="CR5" className="st2" points="148.3,534.2 148.6,482.2 142.1,482.2 141.8,534.2 141.8,534.2 141.8,546.3 148.3,546.3
-      		156.2,546.3 156.2,534.2 	"/>
-      	<rect id="MR3" x="445.9" y="48.1" className="st2" width="65.4" height="17.7"/>
-      	<rect id="TR" x="505.5" y="546.3" className="st2" width="10.5" height="72.3"/>
+      		156.2,546.3 156.2,534.2 	" onClick={this.handleClick}/>
+      	<rect id="MR3" x="445.9" y="48.1" className="st2" width="65.4" height="17.7" onClick={this.handleClick}/>
+      	<rect id="TR" x="505.5" y="546.3" className="st2" width="10.5" height="72.3" onClick={this.handleClick}/>
       </g>
       <g id="WALLS_x5F_WINDOWS">
-      	<rect id="WIN4" x="413.8" y="17.7" className="st0" width="108.6" height="12"/>
-      	<rect id="WIN3" x="321" y="17.7" className="st0" width="91.3" height="12"/>
-      	<rect id="WIN2" x="23" y="17.7" className="st0" width="125.7" height="12"/>
-      	<rect id="WIN1_1_" x="152" y="17.7" className="st0" width="56.3" height="12"/>
-      	<rect id="WALL3" x="520.3" y="506.9" className="st2" width="2.7" height="128.4"/>
-      	<rect id="WALL2" x="519.7" y="33.7" className="st2" width="2" height="166"/>
-      	<rect id="WALL1" x="30.5" y="219.7" className="st2" width="3" height="390.5"/>
+      	<rect id="WIN4" x="413.8" y="17.7" className="st0" width="108.6" height="12" onClick={this.handleClick}/>
+      	<rect id="WIN3" x="321" y="17.7" className="st0" width="91.3" height="12" onClick={this.handleClick}/>
+      	<rect id="WIN2" x="23" y="17.7" className="st0" width="125.7" height="12" onClick={this.handleClick}/>
+      	<rect id="WIN1_1_" x="152" y="17.7" className="st0" width="56.3" height="12" onClick={this.handleClick}/>
+      	<rect id="WALL3" x="520.3" y="506.9" className="st2" width="2.7" height="128.4" onClick={this.handleClick}/>
+      	<rect id="WALL2" x="519.7" y="33.7" className="st2" width="2" height="166" onClick={this.handleClick}/>
+      	<rect id="WALL1" x="30.5" y="219.7" className="st2" width="3" height="390.5" onClick={this.handleClick}/>
       </g>
       <g id="text">
       	<text id="WIN4text" transform="matrix(1 0 0 1 460.5 27.4274)" className="st4 st5">WIN4</text>

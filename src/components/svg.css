@@ -18,6 +18,6 @@
 .st7{font-size:10px;}
 .st8{font-size:7.6368px;}
 
-rect,polygon,ellipse {
+rect,polygon,ellipse, path {
   pointer-events: bounding-box;
 }

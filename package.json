@@ -1,6 +1,6 @@
 {
-  "name": "Store Layout With Description",
-  "homepage": "https://kca99.github.io/storedescription",
+  "name": "StoreLayoutWithDescription",
+  "homepage": "http://kca99.github.io/storeDesc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
