@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+
+}
+
+.svgDiv{
+  height: 90vh;
+  width: 70vh;
+  border-color:  blue;
+  border-style: solid;
+  float:left;
+}
+
+.descDiv{
+  text-align: left;
+}
