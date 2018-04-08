@@ -77,7 +77,7 @@ class Svgdisplay extends Component {
       	<rect id="WIN4" x="413.8" y="17.7" class="st0" width="108.6" height="12" onClick={this.handleClick}/>
       	<rect id="WIN3" x="321" y="17.7" class="st0" width="91.3" height="12" onClick={this.handleClick}/>
       	<rect id="WIN2" x="23" y="17.7" class="st0" width="125.7" height="12" onClick={this.handleClick}/>
-      	<rect id="WIN1_1_" x="152" y="17.7" class="st0" width="56.3" height="12" onClick={this.handleClick}/>
+      	<rect id="WIN1" x="152" y="17.7" class="st0" width="56.3" height="12" onClick={this.handleClick}/>
       	<polygon id="WALL3" class="st2" points="521,500.7 511.6,500.7 471.7,500.7 471.7,509.7 511.6,509.7 511.6,621.3 521.7,621.3
       		521.7,500.7 	" onClick={this.handleClick}/>
       	<rect id="WALL2" x="510" y="33.7" class="st2" width="10.6" height="166" onClick={this.handleClick}/>
@@ -144,7 +144,7 @@ class Svgdisplay extends Component {
       	<text id="WIN3text" transform="matrix(1 0 0 1 351.1667 27.4274)" class="st4 st5">WIN3</text>
       	<text id="WIN2text" transform="matrix(1 0 0 1 167.1667 27.4274)" class="st4 st5">WIN2</text>
       	<text id="WIN1text" transform="matrix(1 0 0 1 69.5 27.4274)" class="st4 st5">WIN1</text>
-      	<text id="DR6text_1_" transform="matrix(1 0 0 1 487.9704 477.9691)" class="st4 st5">DR6</text>
+      	<text id="DR6text" transform="matrix(1 0 0 1 487.9704 477.9691)" class="st4 st5">DR6</text>
       	<text id="DR5text" transform="matrix(1 0 0 1 487.9704 426.8024)" class="st4 st5">DR5</text>
       	<text id="DR4text" transform="matrix(1 0 0 1 487.9704 304.8024)" class="st4 st5">DR4</text>
       	<text id="DR3text" transform="matrix(1 0 0 1 38.5 56.3024)" class="st4 st5">DR3</text>
@@ -166,25 +166,25 @@ class Svgdisplay extends Component {
       	<text id="HAtext" transform="matrix(1 0 0 1 312.333 343.1245)" class="st4 st7">HA</text>
       	<text id="HBTEXT" transform="matrix(1 0 0 1 326.2997 56.9499)" class="st4 st7">HB</text>
       	<text id="BEAMtext" transform="matrix(1 0 0 1 275.125 343.1247)" class="st4 st6">BEAM</text>
-      	<text id="_x33_DFILtext" transform="matrix(1 0 0 1 298.6122 292.6247)" class="st4 st6">3DFIL</text>
+      	<text id="3DFILtext" transform="matrix(1 0 0 1 298.6122 292.6247)" class="st4 st6">3DFIL</text>
       	<text id="KIT2text" transform="matrix(1 0 0 1 404.5 599.5417)" class="st4 st6">KIT2</text>
       	<text id="KIT1text" transform="matrix(1 0 0 1 353 633.7917)" class="st4 st6">KIT1</text>
       	<text id="MAGtext" transform="matrix(1 0 0 1 384.9171 633.7917)" class="st4 st6">MAG</text>
       	<text id="DIRtext" transform="matrix(0.9328 0 0 1 435 633.958)" class="st4 st6">DIR</text>
       	<text id="backOfficeText" transform="matrix(1 0 0 1 385.8753 661.2288)" class="st4 st6">Back Office</text>
       	<text id="TBtext" transform="matrix(1 0 0 1 366.0221 56.3052)" class="st4 st7">TB</text>
-      	<text id="_x31_2text" transform="matrix(1 0 0 1 416.5412 398.4175)" class="st4 st7">12</text>
-      	<text id="_x31_1text" transform="matrix(1 0 0 1 399.1245 398.6818)" class="st4 st7">11</text>
-      	<text id="_x31_0text" transform="matrix(1 0 0 1 416.8745 369.9318)" class="st4 st7">10</text>
-      	<text id="_x39_text" transform="matrix(1 0 0 1 401.5 369.3799)" class="st4 st7">9</text>
-      	<text id="_x38_text" transform="matrix(1 0 0 1 418.75 222.6965)" class="st4 st7">8</text>
-      	<text id="_x37_text" transform="matrix(1 0 0 1 402 222.6965)" class="st4 st7">7</text>
-      	<text id="_x36_text" transform="matrix(1 0 0 1 300.3878 266.6964)" class="st4 st7">6</text>
-      	<text id="_x35_text" transform="matrix(1 0 0 1 270.375 266.6964)" class="st4 st7">5</text>
-      	<text id="_x34_text" transform="matrix(1 0 0 1 153.0833 221.9465)" class="st4 st7">4</text>
-      	<text id="_x33_text" transform="matrix(1 0 0 1 138.75 221.9465)" class="st4 st7">3</text>
-      	<text id="_x32_text" transform="matrix(1 0 0 1 153.0833 246.9465)" class="st4 st7">2</text>
-      	<text id="_x31_text" transform="matrix(1 0 0 1 138.75 246.9465)" class="st4 st7">1</text>
+      	<text id="12text" transform="matrix(1 0 0 1 416.5412 398.4175)" class="st4 st7">12</text>
+      	<text id="11text" transform="matrix(1 0 0 1 399.1245 398.6818)" class="st4 st7">11</text>
+      	<text id="10text" transform="matrix(1 0 0 1 416.8745 369.9318)" class="st4 st7">10</text>
+      	<text id="9text" transform="matrix(1 0 0 1 401.5 369.3799)" class="st4 st7">9</text>
+      	<text id="8text" transform="matrix(1 0 0 1 418.75 222.6965)" class="st4 st7">8</text>
+      	<text id="7text" transform="matrix(1 0 0 1 402 222.6965)" class="st4 st7">7</text>
+      	<text id="6text" transform="matrix(1 0 0 1 300.3878 266.6964)" class="st4 st7">6</text>
+      	<text id="5text" transform="matrix(1 0 0 1 270.375 266.6964)" class="st4 st7">5</text>
+      	<text id="4text" transform="matrix(1 0 0 1 153.0833 221.9465)" class="st4 st7">4</text>
+      	<text id="3text" transform="matrix(1 0 0 1 138.75 221.9465)" class="st4 st7">3</text>
+      	<text id="2text" transform="matrix(1 0 0 1 153.0833 246.9465)" class="st4 st7">2</text>
+      	<text id="1text" transform="matrix(1 0 0 1 138.75 246.9465)" class="st4 st7">1</text>
       	<text id="TRtext" transform="matrix(-1.346898e-010 1.3094 -1 -1.763692e-010 496.7 572.2666)" class="st4 st8">TR</text>
       </g>
       </svg>
