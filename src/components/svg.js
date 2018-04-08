@@ -51,7 +51,7 @@ class Svgdisplay extends Component {
     //const {location} = this.location; //if given
     return (
       <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-      	 viewBox="0 0 535 688.7" xmlSpace="preserve">
+      	 viewBox="0 0 535 688.7" >
 
       <g id="Foundation">
       	<rect id="outerWall" x="19.6" y="13.3" class="st0" width="503.4" height="667.3"/>
@@ -169,7 +169,7 @@ class Svgdisplay extends Component {
       	<text id="3DFILtext" transform="matrix(1 0 0 1 298.6122 292.6247)" class="st4 st6">3DFIL</text>
       	<text id="KIT2text" transform="matrix(1 0 0 1 404.5 599.5417)" class="st4 st6">KIT2</text>
       	<text id="KIT1text" transform="matrix(1 0 0 1 353 633.7917)" class="st4 st6">KIT1</text>
-      	<text id="MAGtext" transform="matrix(1 0 0 1 384.9171 633.7917)" class="st4 st6">MAG</text>
+      	<text id="MAG" transform="matrix(1 0 0 1 384.9171 633.7917)" class="st4 st6" onClick={this.handleClick}>MAG</text>
       	<text id="DIRtext" transform="matrix(0.9328 0 0 1 435 633.958)" class="st4 st6">DIR</text>
       	<text id="backOfficeText" transform="matrix(1 0 0 1 385.8753 661.2288)" class="st4 st6">Back Office</text>
       	<text id="TBtext" transform="matrix(1 0 0 1 366.0221 56.3052)" class="st4 st7">TB</text>

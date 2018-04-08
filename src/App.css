@@ -8,9 +8,12 @@
   width: 70vh;
   border-color:  blue;
   border-style: solid;
-  float:left;
+  position: absolute;
+  left:10%;
+
 }
 
 .descDiv{
   text-align: left;
+  padding-left: 52%;
 }
