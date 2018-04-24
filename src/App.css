@@ -1,19 +1,4 @@
-.App {
-  text-align: center;
-
-}
-
-.svgDiv{
-  height: 90vh;
-  width: 70vh;
-  border-color:  blue;
-  border-style: solid;
-  position: absolute;
-  left:10%;
-
-}
-
-.descDiv{
-  text-align: left;
-  padding-left: 52%;
+#box{
+  min-height: 100%;
+    height: 100%;
 }

@@ -26,15 +26,16 @@ handleData(data){
   render() {
     return (
 
-      <div className="App">
-        <h1 className="display-3"> How to ghetto map layout! </h1>
-        <div id="row">
-          <div className="svgDiv">
+      <div className="container-fluid" id="box">
+        <div class="row justify-content-center">
+          <h1 className="display-4 "> Kevin Can Actually Code? </h1>
+        </div>
+        <div class="row justify-content-center h-100">
+          <div class="h-100 col-4" id="left">
             <Svgdisplay handlerFromParent={this.handleData}/>
           </div>
-          <div className="descDiv">
+          <div class="col-4" id="right">
             <h5>Received by Parent:<br />{this.state.fromChild}</h5>
-
             This is a test!
           </div>
         </div>
