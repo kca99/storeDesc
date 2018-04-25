@@ -75,8 +75,8 @@ class Svgdisplay extends Component {
       <g id="WALLS_x5F_WINDOWS">
       	<rect id="WIN4" x="413.8" y="17.7" className="st0" width="108.6" height="12" onClick={this.handleClick}/>
       	<rect id="WIN3" x="321" y="17.7" className="st0" width="91.3" height="12" onClick={this.handleClick}/>
-      	<rect id="WIN2" x="23" y="17.7" className="st0" width="125.7" height="12" onClick={this.handleClick}/>
-      	<rect id="WIN1" x="152" y="17.7" className="st0" width="56.3" height="12" onClick={this.handleClick}/>
+      	<rect id="WIN1" x="23" y="17.7" className="st0" width="125.7" height="12" onClick={this.handleClick}/>
+      	<rect id="WIN2" x="152" y="17.7" className="st0" width="56.3" height="12" onClick={this.handleClick}/>
       	<polygon id="WALL3" className="st2" points="521,500.7 511.6,500.7 471.7,500.7 471.7,509.7 511.6,509.7 511.6,621.3 521.7,621.3
       		521.7,500.7 	" onClick={this.handleClick}/>
       	<rect id="WALL2" x="510" y="33.7" className="st2" width="10.6" height="166" onClick={this.handleClick}/>
@@ -132,18 +132,18 @@ class Svgdisplay extends Component {
       	<rect id="MAG" x="384" y="623.7" className="st2" width="25.5" height="14.3" onClick={this.handleClick}/>
       	<rect id="DIR" x="412.8" y="623.7" className="st2" width="66.3" height="14.3" onClick={this.handleClick}/>
       	<rect id="KIT2" x="394.7" y="589.3" className="st2" width="40.3" height="14.3" onClick={this.handleClick}/>
-      	<polygon id="CR5" className="st2" points="148.3,534.2 148.6,482.2 142.1,482.2 141.8,534.2 141.8,534.2 141.8,546.3 148.3,546.3
-      		156.2,546.3 156.2,534.2 	" onClick={this.handleClick}/>
+      	<polygon id="CR5" className="st2" points="148.3,534.2 148.6,482.2 137,482.2 137,534.2 137,534.2 137,546.3 148.3,546.3
+      		160,546.3 160,534.2 	" onClick={this.handleClick}/>
       	<rect id="MR3" x="445.9" y="48.1" className="st2" width="36.7" height="17.7" onClick={this.handleClick}/>
       	<rect id="TR" x="495" y="547.8" className="st2" width="10.5" height="72.3" onClick={this.handleClick}/>
-        <rect id="CTR" x="149.9" y="482.2" className="st2" width="6.3" height="50.5" onClick={this.handleClick}/>
+        <rect id="CTR" x="149.9" y="482.2" className="st2" width="10" height="50.5" onClick={this.handleClick}/>
 
       </g>
       <g id="text">
-      	<text id="WIN4text" transform="matrix(1 0 0 1 460.5 27.4274)" className="st4 st5">WIN4</text>
-      	<text id="WIN3text" transform="matrix(1 0 0 1 351.1667 27.4274)" className="st4 st5">WIN3</text>
-      	<text id="WIN2text" transform="matrix(1 0 0 1 167.1667 27.4274)" className="st4 st5">WIN2</text>
-      	<text id="WIN1text" transform="matrix(1 0 0 1 69.5 27.4274)" className="st4 st5">WIN1</text>
+      	<text id="WIN4" transform="matrix(1 0 0 1 460.5 27.4274)" className="st4 st5" onClick={this.handleClick}>WIN4</text>
+      	<text id="WIN3" transform="matrix(1 0 0 1 351.1667 27.4274)" className="st4 st5" onClick={this.handleClick}>WIN3</text>
+      	<text id="WIN2" transform="matrix(1 0 0 1 167.1667 27.4274)" className="st4 st5" onClick={this.handleClick}>WIN2</text>
+      	<text id="WIN1" transform="matrix(1 0 0 1 69.5 27.4274)" className="st4 st5" onClick={this.handleClick}>WIN1</text>
       	<text id="DR6text" transform="matrix(1 0 0 1 487.9704 477.9691)" className="st4 st5">DR6</text>
       	<text id="DR5text" transform="matrix(1 0 0 1 487.9704 426.8024)" className="st4 st5">DR5</text>
       	<text id="DR4text" transform="matrix(1 0 0 1 487.9704 304.8024)" className="st4 st5">DR4</text>
@@ -151,15 +151,15 @@ class Svgdisplay extends Component {
       	<text id="DR2text" transform="matrix(1 0 0 1 38.5 93.5524)" className="st4 st5">DR2</text>
       	<text id="DR1text" transform="matrix(1 0 0 1 37.3037 160.3024)" className="st4 st5">DR1</text>
       	<text id="CR4text" transform="matrix(1 0 0 1 203.75 542.3024)" className="st4 st5">CR4</text>
-      	<text id="CR3text" transform="matrix(1 0 0 1 212.5 592.8747)" className="st4 st6">CR3</text>
-      	<text id="CR2text" transform="matrix(1 0 0 1 40.75 590.3024)" className="st4 st5">CR2</text>
+      	<text id="CR3" transform="matrix(1 0 0 1 212.5 592.8747)" className="st4 st6" onClick={this.handleClick}>CR3</text>
+      	<text id="CR2" transform="matrix(1 0 0 1 40.75 590.3024)" className="st4 st5" onClick={this.handleClick}>CR2</text>
       	<text id="CR1text" transform="matrix(1 0 0 1 154 630.8024)" className="st4 st5">CR1</text>
-      	<text id="CR5text" transform="matrix(1 0 0 1 120.2083 510.0524)" className="st4 st5">CR5</text>
-      	<text id="CTRtext" transform="matrix(1 0 0 1 159.9583 510.0524)" className="st4 st5">CTR</text>
+      	<text id="CR5text" transform="matrix(1 0 0 1 116 510.0524)" className="st4 st5">CR5</text>
+      	<text id="CTRtext" transform="matrix(1 0 0 1 161 510.0524)" className="st4 st5">CTR</text>
       	<text id="WALL3text" transform="matrix(1 0 0 1 476.6002 534.2002)" className="st4 st5">WALL3</text>
       	<text id="WALL2text" transform="matrix(1 0 0 1 471.7003 113.803)" className="st4 st5">WALL2</text>
       	<text id="WALL1text" transform="matrix(1 0 0 1 38.5 406.4695)" className="st4 st5">WALL1</text>
-      	<text id="FDtext" transform="matrix(1 0 0 1 280.9366 465.3024)" className="st4 st5">FD</text>
+      	<text id="FD" transform="matrix(1 0 0 1 280.9366 465.3024)" className="st4 st5"  onClick={this.handleClick}>FD</text>
       	<text id="MR3" transform="matrix(1 0 0 1 455.2 60.0027)" className="st4 st7" onClick={this.handleClick}>MR3</text>
       	<text id="MR2" transform="matrix(1 0 0 1 292.0019 386.9127)" className="st4 st5" onClick={this.handleClick}>MR2</text>
       	<text id="MR1" transform="matrix(1 0 0 1 254.0002 386.9127)" className="st4 st5" onClick={this.handleClick}>MR1</text>
@@ -172,7 +172,7 @@ class Svgdisplay extends Component {
       	<text id="MAG" transform="matrix(1 0 0 1 384.9171 633.7917)" className="st4 st6" onClick={this.handleClick}>MAG</text>
       	<text id="DIR" transform="matrix(0.9328 0 0 1 435 633.958)" className="st4 st6" onClick={this.handleClick}>DIR</text>
       	<text id="backOfficeText" transform="matrix(1 0 0 1 385.8753 661.2288)" className="st4 st6">Back Office</text>
-      	<text id="TB" transform="matrix(1 0 0 1 366.0221 56.3052)" className="st4 st7" onClick={this.handleClick}>TB</text>
+      	<text id="TREASUREBOX" transform="matrix(1 0 0 1 366.0221 56.3052)" className="st4 st7" onClick={this.handleClick}>TB</text>
       	<text id="12text" transform="matrix(1 0 0 1 416.5412 398.4175)" className="st4 st7">12</text>
       	<text id="11text" transform="matrix(1 0 0 1 399.1245 398.6818)" className="st4 st7">11</text>
       	<text id="10text" transform="matrix(1 0 0 1 416.8745 369.9318)" className="st4 st7">10</text>
@@ -185,7 +185,7 @@ class Svgdisplay extends Component {
       	<text id="3text" transform="matrix(1 0 0 1 138.75 221.9465)" className="st4 st7">3</text>
       	<text id="2text" transform="matrix(1 0 0 1 153.0833 246.9465)" className="st4 st7">2</text>
       	<text id="1text" transform="matrix(1 0 0 1 138.75 246.9465)" className="st4 st7">1</text>
-      	<text id="TRtext" transform="matrix(-1.346898e-010 1.3094 -1 -1.763692e-010 496.7 572.2666)" className="st4 st8">TR</text>
+      	<text id="TR" transform="matrix(-1.346898e-010 1.3094 -1 -1.763692e-010 496.7 572.2666)" className="st4 st8" onClick={this.handleClick}>TR</text>
       </g>
       </svg>
 
