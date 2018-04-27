@@ -2,6 +2,38 @@
   "S1":
   {
     "name" : "Shelf / Rack 1",
-    "items" : ["capacitors", "electrolytic capacitors" ]
+    "items" : ["capacitors", "electrolytic capacitors", "mica capacitors", "variable capacitors" ]
+  },
+  "F1":
+  {
+    "name" : "Floor 1",
+    "items" : ["fans", "heatsinks", "analog panel meters" ]
+  },
+  "S2":
+  {
+    "name" : "Shelf / Rack 2",
+    "items" : ["lipo batteries", "Cheero products", "relays", "solid state relays", "auto relays",
+       "orange drop capacitors", "fan capacitors", "vintage capacitors", "li-ion batteries"]
+  },
+  "F2":
+  {
+    "name" : "Floor 2",
+    "items" : ["power supplies", "AC/DC transformers", "lead acid batteries", "alarm batteries", "motor capacitors",
+    "running capacitors", "start up capacitors"]
+  },
+  "S3":
+  {
+    "name" : "Shelf / Rack 3",
+    "items" : ["leds", "buttons", "switches", "light bulbs" ]
+  },
+  "F3":
+  {
+    "name" : "Floor 3",
+    "items" : ["bare transformers", "AC/AC transformers"]
+  },
+  "S4":
+  {
+    "name" : "Shelf / Rack 4",
+    "items" : ["JST connectors", "molex connectors", "hookup wire" ]
   }
 }
